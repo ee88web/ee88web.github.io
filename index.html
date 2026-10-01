@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EE88</title>
+
+    <style>
+        /* ==========================================
+           RESET
+           ========================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        /* ==========================================
+           TRANG
+           ========================================== */
+
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
+            background: #000;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+
+        /* ==========================================
+           KHUNG ẢNH
+           ========================================== */
+
+        .page {
+            position: relative;
+            width: 100%;
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+
+        /* ==========================================
+           ẢNH CHÍNH
+           ========================================== */
+
+        .banner {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+
+        /* ==========================================
+           LINK ẨN TRONG SUỐT
+           ========================================== */
+
+        .hotspot {
+            position: absolute;
+            display: block;
+
+            background: transparent;
+            border: none;
+            outline: none;
+
+            z-index: 10;
+
+            cursor: pointer;
+        }
+
+
+        /* ==========================================
+           1. ĐĂNG KÝ - TẶNG NGAY 88K
+           ========================================== */
+
+        .register-link {
+            left: 2%;
+            top: 6.8%;
+            width: 48%;
+            height: 6.2%;
+        }
+
+
+        /* ==========================================
+           2. ĐĂNG NHẬP
+           ⚠️ CHƯA CÓ LINK
+           ========================================== */
+
+        .login-link {
+            left: 51%;
+            top: 6.8%;
+            width: 47%;
+            height: 6.2%;
+        }
+
+
+        /* ==========================================
+           3. LINK EE88 CHÍNH THỨC
+           ⚠️ CHƯA CÓ LINK
+           ========================================== */
+
+        .official-link {
+            left: 2%;
+            top: 13.7%;
+            width: 96%;
+            height: 4.5%;
+        }
+
+
+        /* ==========================================
+           4. TELEGRAM
+           ⚠️ CHƯA CÓ LINK
+           ========================================== */
+
+        .telegram-link {
+            left: 2%;
+            top: 54.5%;
+            width: 31%;
+            height: 8%;
+        }
+
+
+        /* ==========================================
+           5. ZALO
+           ⚠️ CHƯA CÓ LINK
+           ========================================== */
+
+        .zalo-link {
+            left: 34.5%;
+            top: 54.5%;
+            width: 31%;
+            height: 8%;
+        }
+
+
+        /* ==========================================
+           6. FACEBOOK
+           ⚠️ CHƯA CÓ LINK
+           ========================================== */
+
+        .facebook-link {
+            left: 67%;
+            top: 54.5%;
+            width: 31%;
+            height: 8%;
+        }
+
+
+        /* ==========================================
+           CHẾ ĐỘ KIỂM TRA VÙNG CLICK
+
+           Mặc định: TẮT
+
+           Khi cần kiểm tra vị trí:
+           đổi display: none;
+           thành display: block;
+
+           Sau khi kiểm tra xong đổi lại none.
+           ========================================== */
+
+        .debug {
+            display: none;
+            position: absolute;
+            z-index: 20;
+
+            background: rgba(255, 0, 0, 0.25);
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="page">
+
+
+        <!-- ==========================================
+             ẢNH CHÍNH DUY NHẤT
+             ========================================== -->
+
+        <img
+            src="images/banner.png"
+            alt="EE88"
+            class="banner"
+        >
+
+
+        <!-- ==========================================
+             1. ĐĂNG KÝ - TẶNG NGAY 88K
+
+             🟢 ĐÃ CÓ LINK
+             ========================================== -->
+
+        <a
+            href="https://e8vv.com/mobile/?inviteCode=7366561#/login?type=register"
+            class="hotspot register-link"
+            aria-label="Đăng ký"
+        ></a>
+
+
+
+        <!-- ==========================================
+             2. ĐĂNG NHẬP
+
+             🔴 CHƯA CÓ LINK
+
+             Không được để link thật ở đây
+             cho đến khi bạn cung cấp link.
+             ========================================== -->
+
+        <a
+            href="https://e8vv.com/mobile/?inviteCode=7366561#/login?type=register"
+
+            class="hotspot login-link"
+            aria-label="Đăng nhập"
+        ></a>
+
+
+
+        <!-- ==========================================
+             3. LINK VÀO EE88 CHÍNH THỨC
+
+             🔴 CHƯA CÓ LINK
+
+             Không được để link thật ở đây
+             cho đến khi bạn cung cấp link.
+             ========================================== -->
+
+        <a
+            href="https://e8vv.com/mobile/?inviteCode=7366561#/login?type=register"
+
+            class="hotspot official-link"
+            aria-label="Link EE88 chính thức"
+        ></a>
+
+
+
+        <!-- ==========================================
+             4. TELEGRAM
+
+             🔴 CHƯA CÓ LINK
+
+             Không được để link thật ở đây
+             cho đến khi bạn cung cấp link.
+             ========================================== -->
+
+        <a
+            href="https://t.me/Thanhsang8368"
+            class="hotspot telegram-link"
+            aria-label="Telegram"
+        ></a>
+
+
+
+        <!-- ==========================================
+             5. ZALO
+
+             🔴 CHƯA CÓ LINK
+
+             Không được để link thật ở đây
+             cho đến khi bạn cung cấp link.
+             ========================================== -->
+
+        <a
+            href="#"
+            class="hotspot zalo-link"
+            aria-label="Zalo - CHƯA CÓ LINK"
+        ></a>
+
+
+
+        <!-- ==========================================
+             6. FACEBOOK
+
+             🔴 CHƯA CÓ LINK
+
+             Không được để link thật ở đây
+             cho đến khi bạn cung cấp link.
+             ========================================== -->
+
+        <a
+            href="https://web.facebook.com/darmen.darmen.31586526/?locale=vi_VN"
+            class="hotspot facebook-link"
+            aria-label="Facebook"
+        ></a>
+
+
+    </div>
+
+</body>
+</html>
